@@ -1,0 +1,41 @@
+.app__house{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center center;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 4rem;
+}
+
+.app__house-logo{
+    max-width: 100%;
+    margin-bottom: 2.1rem;
+}
+.app__house-bottom{
+    position: absolute;
+    bottom: 1rem;
+}
+.app__house-bottom img{
+    width: 4rem;
+}
+
+
+@media screen and (max-width: 1150px){
+  .app__house{
+      padding: 0 3rem;
+  }
+}
+
+@media screen and (max-width: 650px){
+    .app__house{
+        padding: 0 1rem;
+    }
+    
+}
+  

@@ -1,0 +1,91 @@
+.app__navbar{
+    width: 100%;
+    display: flex;
+    background-color: var(--color-mustard);
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+
+.app__navbar-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.app__navbar-logo img{
+    width: 116px;
+}
+.app__navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.app__navbar-links li{
+    margin: 0 2.5rem;
+    cursor: pointer;
+}
+.app__navbar-links li a:hover{
+    color: var(--color-crimson);
+}
+.app__navbar-smallscreen{
+    display: none;
+}
+.app__navbar-smallscreen_overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    transition: 0.5s ease;
+
+    flex-direction: column;
+    z-index: 5;
+}
+.app__navbar-smallscreen_overlay .overlay__close{
+    font-size: 27px;
+    color: var(--color-crimson);
+    cursor: pointer;
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+}
+.app__navbar-smallscreen_links{
+    list-style: none;
+}
+
+.app__navbar-smallscreen_links li{
+    margin: 2rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.app__navbar-smallscreen_links li a:hover{
+    color: var(--color-crimson);
+}
+
+/* @media screen and (max-width: 2000px){
+
+} */
+
+
+
+@media screen and (max-width: 1150px){
+    .app__navbar-links{
+        display: none;
+    }
+
+    .app__navbar-smallscreen{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .app__navbar{
+        padding: 1rem 2rem;
+    }
+}
