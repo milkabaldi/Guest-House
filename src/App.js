@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Navbar, } from './components'
-import { GuestHouse, BookNow } from './container';
+import { GuestHouse, BookNow, Weekend } from './container';
 
 import './App.css';
 
@@ -14,6 +14,7 @@ export const App = () => {
       <Navbar />
       <GuestHouse />
       <BookNow />
+      <Weekend />
     </div>
   )
 }

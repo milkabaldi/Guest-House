@@ -1,0 +1,14 @@
+
+.app__weekend-title{
+    padding: 4rem;
+}
+.app__weekend-images img{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 650px) {
+    .app__weekend-title{
+        padding: 2rem;
+    }
+}
