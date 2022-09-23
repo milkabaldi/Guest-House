@@ -9,6 +9,6 @@
 
 @media screen and (max-width: 650px) {
     .app__weekend-title{
-        padding: 2rem;
+        padding: 2rem 1rem;
     }
 }

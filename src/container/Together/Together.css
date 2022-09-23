@@ -1,0 +1,42 @@
+.app__together{
+    padding: 4rem 1rem;
+    
+}
+.app__together-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.app__together-wrapper_lixt{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.app__together-wrapper_lixt-block{
+    display: flex;
+    align-items: center;
+    width: calc(50% - 1rem);
+    max-width: 280px;
+    margin: 0 auto;
+    gap: 1rem;
+
+}
+.app__together-wrapper_text .orange-line{
+    margin: 0 0 2rem
+}
+.app__together-wrapper_lixt-block_icon{
+    max-width: 36px;
+}
+
+
+@media screen and (max-width: 650px) {
+    .app__together-wrapper {
+        flex-direction: column;
+    }
+    .app__together-wrapper_lixt-block {
+        width: 100%;
+    }
+    .app__together-wrapper_text{
+        margin: 1rem;
+    }
+}

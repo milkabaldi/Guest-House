@@ -7,6 +7,15 @@
   line-height: 28px;
   font-size: 16px;
 }
+.p__blacksans {
+  font-family: var(--font-base);
+  color: var(--color-black);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  line-height: 28px;
+  font-size: 16px;
+}
 .p__sansgrey {
   font-family: var(--font-base);
   color: var(--color-grey);
@@ -17,10 +26,26 @@
   font-size: 16px;
 }
 
+.third-txt {
+  font-family: var(--font-base);
+  color: var(--color-black);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  line-height: 28px;
+  font-size: 18px;
+}
+
 .flex__center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.flex__center-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .flex__start {
   display: flex;
@@ -35,6 +60,14 @@
   color: var(--color-white);
   margin-bottom: 2rem;
 }
+.second-txt_black {
+  font-family: var(--font-base);
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 3.5rem;
+  color: var(--color-black);
+  margin-bottom: 2rem;
+}
 .orange-line {
   height: 8px;
   width: 42px;
@@ -42,7 +75,10 @@
   margin: 0 auto;
   margin-bottom: 2rem;
 }
-
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 .app__button {
   background: var(--color-mustard);
   border-radius: 6px;
@@ -54,6 +90,7 @@
   line-height: 20px;
   color: var(--color-white);
   border: 0;
+  cursor: pointer;
 }
 
 .bold-title {
@@ -74,6 +111,9 @@
 }
 @media screen and (max-width: 650px) {
   .second-txt {
+    font-size: 2rem;
+  }
+  .second-txt_black {
     font-size: 2rem;
   }
   .bold-title {

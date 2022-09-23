@@ -1,0 +1,36 @@
+.app__escape{
+    padding: 4rem 1rem;
+    background-color: #fff;
+}
+.app__escape-title{
+    max-width: 650px;
+    margin-bottom: 2rem;
+}
+.app__escape-title .orange-line{
+    margin: 0 0 2rem;
+}
+.app__escape-projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.app__escape-project_block{
+    display: flex;
+    width: calc(50% - 1rem);
+    padding: 20px 0 30px;
+    gap: 1rem;
+}
+.app__escape-project_block-image{
+    max-width: 36px;
+}
+
+
+@media screen and (max-width: 650px) {
+    .app__escape-projects {
+        flex-direction: column;
+    }
+    .app__escape-project_block{
+        width: 100%;
+    }
+    
+}

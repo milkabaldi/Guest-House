@@ -1,22 +1,28 @@
 import React from 'react'
 
 import { Navbar, } from './components'
-import { GuestHouse, BookNow, Weekend, Sleeping } from './container';
+import { GuestHouse, BookNow, Weekend, Sleeping, Reviews, Together, Booked, Footer } from './container';
 
 import './App.css';
+import Escape from './container/Escape/Escape';
 
 
 
 
 export const App = () => {
   return (
-    <div>
+    <>
       <Navbar />
       <GuestHouse />
       <BookNow />
       <Weekend />
       <Sleeping />
-    </div>
+      <Escape />
+      <Reviews />
+      <Together />
+      <Booked />
+      <Footer />
+    </>
   )
 }
 

@@ -1,0 +1,37 @@
+.app__sleep{
+    padding: 4rem 1rem;
+    background: #FAF8F0;
+}
+.app__sleep-title{
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+    text-align: center;
+    
+}
+.app__sleep-projects{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.app__sleep-project_block{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+.app__sleep-project_block img{
+    margin-bottom: 1rem;
+}
+
+
+
+@media screen and (max-width: 650px) {
+    .app__sleep-projects {
+        flex-direction: column;
+    }
+}

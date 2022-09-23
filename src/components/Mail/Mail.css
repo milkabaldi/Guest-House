@@ -1,0 +1,18 @@
+.sub-form{
+    height: 52px;
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.sub-form_label input{
+    height: 50px;
+    padding: 0 1rem;
+    border: 0;
+    border-radius: 8px;
+    width: 90%;
+}
+.sub-form_label input:focus{
+    border: 0;
+    outline: none;
+}
